@@ -1,3 +1,4 @@
+require('dotenv').config();
 import "@/styles/globals.css";
 import { StoreProvide } from "@/utils/Store";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
